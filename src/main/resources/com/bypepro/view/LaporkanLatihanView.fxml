@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="572.0" prefWidth="600.0" styleClass="gradient-background" stylesheets="@TampilanPulih.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bypepro.controller.LaporkanLatihanCR">
+   <children>
+      <Button fx:id="kirimButton" layoutX="461.0" layoutY="465.0" mnemonicParsing="false" onAction="#handleKirimLaporan" style="-fx-background-radius: 25; -fx-background-color: #2C3E50; -fx-text-fill: white;" styleClass="text-type-2" text="Kirim Laporan">
+         <font>
+            <Font name="SFUIText-Regular" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="videoPathLabel" layoutX="30.0" layoutY="469.0">
+         <font>
+            <Font name="SFUIText-Regular" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="kembaliButton" layoutX="559.0" layoutY="17.0" mnemonicParsing="false" onAction="#handleKembali" style="-fx-background-radius: 25; -fx-background-color: #2c3e50; -fx-text-fill: white;" text="&lt;">
+         <font>
+            <Font name="SFUIText-Regular" size="12.0" />
+         </font>
+      </Button>
+      <HBox layoutX="30.0" layoutY="29.0">
+         <children>
+            <Text fill="#89b4fa" strokeType="OUTSIDE" strokeWidth="0.0" text="Laporkan">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text fill="#2c3e50" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress">
+               <font>
+                  <Font name="SFUIText-Regular" size="28.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="8.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <VBox layoutX="30.0" layoutY="357.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-type-1" text="Unggah Video">
+               <font>
+                  <Font name="SFUIText-Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rekam semua gerakan dalam satu video, lalu unggah disini.">
+               <font>
+                  <Font name="SFUIText-Regular" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="7.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="pilihVideoButton" mnemonicParsing="false" onAction="#handlePilihVideo" prefWidth="529.0" style="-fx-background-radius: 25; -fx-background-color: #89b4fa; -fx-text-fill: white;" text="Pilih File Video (Maks. 100 MB)">
+               <font>
+                  <Font name="SFUIText-Regular" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="30.0" layoutY="98.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-type-1" text="Lengkapi Laporanmu">
+               <font>
+                  <Font name="SFUIText-Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <VBox>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bagaimana tingkat nyeri saat latihan?">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="7.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Slider fx:id="nyeriSlider" blockIncrement="1.0" max="5.0" prefHeight="35.0" prefWidth="529.0" showTickLabels="true" showTickMarks="true" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="7.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Catatan Tambahan (Opsional)">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="7.0" />
+                     </VBox.margin>
+                  </Text>
+                  <TextArea fx:id="catatanArea" prefHeight="121.0" prefWidth="529.0" promptText="Contoh: Terasa sedikit ngilu di bagian..." wrapText="true" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

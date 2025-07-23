@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="572.0" prefWidth="600.0" styleClass="gradient-background" stylesheets="@TampilanPulih.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bypepro.controller.TambahPasienCR">
+   <children>
+      <Button fx:id="simpanButton" layoutX="367.0" layoutY="460.0" mnemonicParsing="false" onAction="#handleSimpan" style="-fx-background-color: #2C3E50; -fx-background-radius: 25;" styleClass="text-type-2" text="Simpan &amp; Tambah Pasien" textFill="WHITE">
+         <font>
+            <Font name="SFUIText-Regular" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="kembaliButton" layoutX="552.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleKembali" style="-fx-background-color: #2c3e50; -fx-background-radius: 25;" text="&lt;" textFill="WHITE">
+         <font>
+            <Font name="SFUIText-Regular" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="errorLabel" layoutX="38.0" layoutY="463.0">
+         <font>
+            <Font name="SFUIText-Regular" size="12.0" />
+         </font>
+      </Label>
+      <HBox layoutX="25.0" layoutY="27.0">
+         <children>
+            <Text fill="#89b4fa" strokeType="OUTSIDE" strokeWidth="0.0" text="Tambah">
+               <font>
+                  <Font name="SFUIText-Regular" size="28.0" />
+               </font>
+            </Text>
+            <Text fill="#2c3e50" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasien">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="8.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <VBox layoutX="28.0" layoutY="107.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-type-1" text="Informasi Akun">
+               <font>
+                  <Font name="SFUIText-Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <HBox>
+               <children>
+                  <VBox>
+                     <children>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Lengkap">
+                                 <font>
+                                    <Font name="SFUIText-Regular" size="14.0" />
+                                 </font>
+                              </Text>
+                              <TextField fx:id="namaField" prefHeight="24.0" prefWidth="216.0" promptText="Nama Lengkap" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
+                                 <font>
+                                    <Font name="SFUIText-Regular" size="12.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="7.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                                 <font>
+                                    <Font name="SFUIText-Regular" size="14.0" />
+                                 </font>
+                              </Text>
+                              <PasswordField fx:id="passwordField" prefHeight="23.0" prefWidth="216.0" promptText="Password" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
+                                 <font>
+                                    <Font name="SFUIText-Regular" size="12.0" />
+                                 </font>
+                              </PasswordField>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <VBox>
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+                                       <font>
+                                          <Font name="SFUIText-Regular" size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <TextField fx:id="emailField" prefHeight="23.0" prefWidth="196.0" promptText="contoh@gmail.com" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
+                                       <font>
+                                          <Font name="SFUIText-Regular" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nomor Telepon">
+                                 <font>
+                                    <Font name="SFUIText-Regular" size="14.0" />
+                                 </font>
+                              </Text>
+                              <TextField fx:id="teleponField" prefHeight="23.0" prefWidth="196.0" promptText="0812-xxxx-xxxx" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
+                                 <font>
+                                    <Font name="SFUIText-Regular" size="12.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="110.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="31.0" layoutY="286.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-type-1" text="Informasi Pribadi &amp; Medis">
+               <font>
+                  <Font name="SFUIText-Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <HBox>
+               <children>
+                  <VBox>
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal Lahir">
+                           <font>
+                              <Font name="SFUIText-Regular" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="7.0" />
+                           </VBox.margin>
+                        </Text>
+                        <DatePicker fx:id="tanggalLahirPicker" prefHeight="25.0" prefWidth="216.0" promptText="Tanggal Lahir" />
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Jenis Kelamin">
+                           <font>
+                              <Font name="SFUIText-Regular" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="7.0" />
+                           </VBox.margin>
+                        </Text>
+                        <ComboBox fx:id="jenisKelaminComboBox" prefHeight="25.0" prefWidth="196.0" promptText="Jenis Kelamin" style="-fx-background-radius: 25; -fx-background-color: #f5f5f5;" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="105.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="7.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Diagnosis Utama">
+                     <font>
+                        <Font name="SFUIText-Regular" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="7.0" />
+                     </VBox.margin>
+                  </Text>
+                  <TextField fx:id="diagnosisField" prefHeight="23.0" promptText="Contoh: Ankle Sprain" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

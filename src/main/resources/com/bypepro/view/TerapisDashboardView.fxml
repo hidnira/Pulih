@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane fitToWidth="true" prefViewportHeight="520.0" prefViewportWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bypepro.controller.TerapisDashboardCR">
+   <content>
+      <AnchorPane prefHeight="622.0" prefWidth="800.0" styleClass="gradient-background" stylesheets="@TampilanPulih.css">
+         <children>
+            <HBox alignment="CENTER_RIGHT" layoutX="305.0" layoutY="51.0" spacing="20.0">
+               <children>
+                  <Label fx:id="sapaanTerapisLabel" text="Selamat Datang Kembali, Windy Clore, S.Ft!">
+                     <font>
+                        <Font name="SFUIText-Regular" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#handleLogout" style="-fx-background-radius: 25; -fx-background-color: #2c3e50;" styleClass="button-function" text="Keluar" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <VBox layoutX="64.0" layoutY="250.0" prefWidth="671.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <Text fill="#2c3e50" strokeType="OUTSIDE" strokeWidth="0.0" text="Daftar semua pasien Anda">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="tambahPasienButton" mnemonicParsing="false" onAction="#handleTambahPasien" style="-fx-background-radius: 25; -fx-background-color: #2C3E50;" styleClass="button-function" text="+ Tambah Pasien Baru" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="335.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="3.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <TableView fx:id="pasienTableView" prefHeight="290.0" prefWidth="671.0">
+                    <columns>
+                      <TableColumn fx:id="namaColumn" prefWidth="156.55377197265625" resizable="false" style="-fx-background-radius: 30 0 0 30;" text="Daftar Pasien" />
+                      <TableColumn fx:id="diagnosisColumn" minWidth="0.0" prefWidth="177.23077392578125" resizable="false" text="Diagnosis Utama" />
+                        <TableColumn fx:id="statusColumn" prefWidth="132.92306518554688" resizable="false" text="Status" />
+                        <TableColumn fx:id="aksiColumn" prefWidth="197.90777587890625" resizable="false" style="-fx-background-radius: 0 30 30 0;" text="Aksi" />
+                    </columns>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox layoutX="64.0" layoutY="31.0">
+               <children>
+                  <Text fill="#89b4fa" strokeType="OUTSIDE" strokeWidth="0.0" text="Fisioterapis">
+                     <font>
+                        <Font name="SFUIText-Regular" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#2c3e50" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+                     <font>
+                        <Font name="SFUIText-Regular" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox layoutX="64.0" layoutY="131.0" spacing="5.0">
+               <children>
+                  <Text fill="#2c3e50" strokeType="OUTSIDE" strokeWidth="0.0" text="Berikut adalah ringkasan aktivitas pasien Anda hari ini">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <HBox>
+                     <children>
+                        <StackPane prefWidth="160.0" style="-fx-background-color: #89B4FA; -fx-background-radius: 38; -fx-border-width: 1; -fx-border-color: #75A9FF; -fx-border-radius: 38;">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
+                                 <image>
+                                    <Image url="@images/Person.png" />
+                                 </image>
+                              </ImageView>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white;" text="Total Pasien Aktif">
+                                       <font>
+                                          <Font name="SFUIText-Regular" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Label fx:id="totalPasienLabel" style="-fx-text-fill: white;" styleClass="text-type-1" text="5 Orang">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <StackPane.margin>
+                                    <Insets left="50.0" />
+                                 </StackPane.margin>
+                              </VBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                           </padding>
+                        </StackPane>
+                        <StackPane prefHeight="67.0" prefWidth="168.0" style="-fx-background-color: #89B4FA; -fx-background-radius: 38; -fx-border-width: 1; -fx-border-color: #75A9FF; -fx-border-radius: 38;">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
+                                 <image>
+                                    <Image url="@images/List.png" />
+                                 </image>
+                              </ImageView>
+                              <VBox alignment="CENTER_LEFT" prefWidth="100.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white;" text="Perlu Tinjauan">
+                                       <font>
+                                          <Font name="SFUIText-Regular" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Label fx:id="perluTinjauanLabel" style="-fx-text-fill: white;" styleClass="text-type-1" text="1 Laporan">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <StackPane.margin>
+                                    <Insets left="50.0" />
+                                 </StackPane.margin>
+                              </VBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                           </padding>
+                        </StackPane>
+                        <StackPane prefWidth="160.0" style="-fx-background-color: #89B4FA; -fx-background-radius: 38; -fx-border-width: 1; -fx-border-color: #75A9FF; -fx-border-radius: 38;">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
+                                 <image>
+                                    <Image url="@images/Schedule.png" />
+                                 </image>
+                              </ImageView>
+                              <VBox alignment="CENTER_LEFT" prefWidth="100.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white;" text="Jadwal Hari Ini">
+                                       <font>
+                                          <Font name="SFUIText-Regular" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Label fx:id="jadwalHariIniLabel" style="-fx-text-fill: white;" styleClass="text-type-1" text="3 Sesi">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <StackPane.margin>
+                                    <Insets left="50.0" />
+                                 </StackPane.margin>
+                              </VBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                           </padding>
+                        </StackPane>
+                        <StackPane prefHeight="67.0" prefWidth="140.0" style="-fx-background-color: #89B4FA; -fx-background-radius: 38; -fx-border-width: 1; -fx-border-color: #75A9FF; -fx-border-radius: 38;">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
+                                 <image>
+                                    <Image url="@images/Heart.png" />
+                                 </image>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </ImageView>
+                              <VBox alignment="CENTER_LEFT" StackPane.alignment="CENTER">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white;" text="Kepatuhan">
+                                       <font>
+                                          <Font name="SFUIText-Regular" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Label fx:id="kepatuhanLabel" style="-fx-text-fill: white;" styleClass="text-type-1" text="79%">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <StackPane.margin>
+                                    <Insets left="50.0" />
+                                 </StackPane.margin>
+                              </VBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                           </padding>
+                        </StackPane>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

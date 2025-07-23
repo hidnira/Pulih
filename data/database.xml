@@ -1,0 +1,610 @@
+<pulih-data>
+  <listFisioterapis>
+    <fisioterapis>
+      <username>windy.clore</username>
+      <passwordHash>7e469a87124e282a963c6c2132cdc7dcc9a73f2e</passwordHash>
+      <namaLengkap>Windy Clore, S.Ft</namaLengkap>
+      <email>windy.clore@klinikpulih.com</email>
+      <noTelepon>081120250719</noTelepon>
+    </fisioterapis>
+  </listFisioterapis>
+  <listPasien>
+    <pasien>
+      <id>PULIH-F38EC7BD</id>
+      <namaLengkap>Baskara Aji Nugroho</namaLengkap>
+      <passwordHash>b4de58a9df45f4af1f1bab6daaf7d323d1a47547</passwordHash>
+      <email>baskara.aji@email.com</email>
+      <noTelepon>081288776655</noTelepon>
+      <tanggalLahir>1998-03-15</tanggalLahir>
+      <jenisKelamin>Laki-Laki</jenisKelamin>
+      <diagnosisUtama>Low Back Pain</diagnosisUtama>
+      <tanggalPembuatanAkun>2025-06-03</tanggalPembuatanAkun>
+      <daftarSesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Latihan Fleksibilitas Awal)</namaSesi>
+          <tanggalTugas>2025-06-15</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Halo Baskara, selamat datang di program &apos;Pulih&apos;. Kita mulai minggu pertama ini dengan peregangan ringan untuk melemaskan otot punggung bawah yang kaku. Lakukan dengan perlahan dan rasakan peregangannya. Semangat!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Knee-to-Chest Stretch</namaGerakan>
+              <instruksi>3 Set x 30 Detik (untuk setiap kaki)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Cat-Cow Stretch</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (gerakan pelan)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE.mp4</pathVideo>
+            <skalaNyeri>1</skalaNyeri>
+            <catatanPasien>Peregangan knee-to-chest terasa sangat nyaman, Bu. Punggung bawah langsung terasa lebih rileks setelahnya. Belum ada rasa ngilu yang aneh.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Bagus sekali untuk permulaan, Baskara! Senang mendengar peregangannya terasa nyaman. Itu tandanya otot-otot punggungmu merespon dengan baik. Pertahankan konsistensi ini ya. Kita sudah di jalur yang benar.</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Pengenalan Otot Inti)</namaSesi>
+          <tanggalTugas>2025-06-17</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Oke, latihan kedua di minggu ini. Kita mulai aktifkan otot inti (core) yang berfungsi sebagai &apos;sabuk&apos; alami untuk punggungmu. Fokus pada gerakan yang terkontrol ya.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Pelvic Tilt</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Glute Bridge</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(2).mp4</pathVideo>
+            <skalaNyeri>2</skalaNyeri>
+            <catatanPasien>Gerakan glute bridge lumayan menantang, Bu. Terasa ada otot di bagian bokong dan perut bawah yang &apos;tertarik&apos;, tapi tidak sakit. Hanya terasa pegal saja setelahnya.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Terima kasih laporannya, Baskara. Rasa &apos;tertarik&apos; dan pegal di area perut dan bokong saat glute bridge itu adalah pertanda yang sangat baik. Artinya, otot inti (core) kamu sudah mulai aktif bekerja. Terus pertahankan!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Latihan Kestabilan Awal)</namaSesi>
+          <tanggalTugas>2025-06-19</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Latihan terakhir untuk minggu ini. Kita coba tantang sedikit kestabilanmu. Pastikan punggung tetap lurus dan perut kencang saat melakukan gerakan ini. Good luck!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Bird-Dog</namaGerakan>
+              <instruksi>3 Set x 10 Repetisi (untuk setiap sisi)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Plank</namaGerakan>
+              <instruksi>3 Set x 20 Detik</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(3).mp4</pathVideo>
+            <skalaNyeri>4</skalaNyeri>
+            <catatanPasien>Gerakan Plank terasa paling berat, Bu. Punggung bagian bawah agak gemetar saat menahan. Apakah itu normal? Saya coba tahan sesuai instruksi.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Terima kasih sudah memberikan catatan yang detail, Baskara. Ya, punggung bawah yang sedikit gemetar saat melakukan Plank di awal itu sangat normal. Itu menunjukkan otot-otot inti-mu sedang bekerja keras untuk menstabilkan posisi. Selama tidak ada nyeri tajam, itu adalah tanda yang baik. Coba di sesi berikutnya, fokus untuk &apos;mengunci&apos; perut lebih kencang lagi. Kamu sudah melakukan yang terbaik!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Penguatan Punggung Bawah)</namaSesi>
+          <tanggalTugas>2025-06-22</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Selamat datang di minggu kedua, Baskara! Kita akan mulai fokus memperkuat otot-otot di sekitar punggung bawah. Lakukan gerakan &apos;Superman&apos; dengan terkontrol, rasakan kontraksi pada otot punggung dan bokong.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Superman</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (tahan 2 detik di puncak)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Glute Bridge (Single Leg)</namaGerakan>
+              <instruksi>3 Set x 10 Repetisi (untuk setiap kaki)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(4).mp4</pathVideo>
+            <skalaNyeri>2</skalaNyeri>
+            <catatanPasien>Gerakan Superman lumayan terasa di punggung bawah, Bu. Untuk Glute Bridge satu kaki, saya merasa agak goyang dan belum seimbang antara sisi kanan dan kiri. Sisi kiri terasa lebih lemah.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Terima kasih laporannya, Baskara. Catatanmu soal sisi kiri yang terasa lebih lemah saat single leg glute bridge itu adalah temuan yang sangat bagus! Itu normal, dan sekarang kita jadi tahu area mana yang perlu kita beri perhatian lebih. Terus latih kedua sisi ya. Good job!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Latihan Anti-Rotasi)</namaSesi>
+          <tanggalTugas>2025-06-24</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Hari ini kita latih kestabilan otot inti dengan gerakan anti-rotasi. Untuk &apos;Dead Bug&apos;, kuncinya adalah menjaga punggung bawah tetap menempel di lantai saat lengan dan kaki bergerak. Jangan terburu-buru.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Plank</namaGerakan>
+              <instruksi>3 Set x 30 Detik (tumpuan lengan bawah)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Dead Bug</namaGerakan>
+              <instruksi>3 Set x 10 Repetisi (untuk setiap sisi, gerakan pelan)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(5).mp4</pathVideo>
+            <skalaNyeri>3</skalaNyeri>
+            <catatanPasien>Plank-nya masih jadi tantangan terberat, Bu! Baru kuat 20 detik di set terakhir. Gerakan Dead Bug agak aneh, tapi setelah beberapa kali coba, mulai terasa otot perut bagian bawah bekerja. Punggung aman.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Plank memang berat, Baskara, tapi progres 20 detik itu sudah sangat baik! Jangan patah semangat. Untuk Dead Bug, tujuan utamanya memang mengaktifkan otot perut bawah tanpa membebani punggung, jadi apa yang kamu rasakan itu sudah tepat. Pertahankan!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Pengenalan Gerakan Fungsional)</namaSesi>
+          <tanggalTugas>2025-06-26</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Sekarang kita mulai integrasikan kekuatan otot inti ke dalam gerakan sehari-hari. Saat melakukan squat, pastikan punggung tetap lurus dan dada tegap. Turun semampunya saja dulu.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Bodyweight Squat</namaGerakan>
+              <instruksi>3 Set x 12 Repetisi</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Lunges (Statis)</namaGerakan>
+              <instruksi>3 Set x 10 Repetisi (untuk setiap kaki)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(6).mp4</pathVideo>
+            <skalaNyeri>1</skalaNyeri>
+            <catatanPasien>Squat dan Lunges terasa lebih ringan dari Plank, hehe. Saya fokus banget jaga punggung biar tetap lurus seperti instruksi. Punggung nggak terasa sakit, tapi paha yang pegal. Semoga gerakannya sudah benar.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Ini evaluasi favorit saya minggu ini! Kamu berhasil melakukan squat dan lunge dengan tumpuan di paha, bukan di punggung. Itu artinya otot inti-mu sudah mulai kuat untuk melindungi punggung saat bergerak. Luar biasa, Baskara!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Peregangan Aktif)</namaSesi>
+          <tanggalTugas>2025-06-28</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Setelah seminggu berlatih, kita tutup dengan peregangan aktif untuk menjaga fleksibilitas. Nikmati prosesnya dan rasakan tubuhmu menjadi lebih kuat dan fleksibel. Great work this week, Baskara!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>World&apos;s Greatest Stretch</namaGerakan>
+              <instruksi>3 Set x 5 Repetisi (untuk setiap sisi)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Knee-to-Chest Stretch</namaGerakan>
+              <instruksi>2 Set x 30 Detik (untuk setiap kaki)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(7).mp4</pathVideo>
+            <skalaNyeri>1</skalaNyeri>
+            <catatanPasien>Sesi peregangan ini enak banget, Bu. Badan terasa lebih enteng setelahnya. Gerakan World&apos;s Greatest Stretch lumayan bikin &apos;narik&apos; di bagian pinggul. Terima kasih untuk program minggu ini!</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Senang sekali mendengar sesi peregangan ini terasa bermanfaat. Menjaga fleksibilitas sama pentingnya dengan membangun kekuatan. Kamu sudah menyelesaikan program minggu kedua dengan sangat baik. Saya bangga dengan progresmu. Mari kita lihat apa tantangan di minggu ketiga nanti!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 3 (Peningkatan Daya Tahan Otot Inti)</namaSesi>
+          <tanggalTugas>2025-07-01</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Selamat datang di minggu ketiga, Baskara! Progresmu luar biasa. Minggu ini kita akan fokus membangun daya tahan otot inti. Untuk Plank, coba tahan lebih lama dari minggu lalu, tapi jangan korbankan postur. Punggung harus tetap lurus!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Plank</namaGerakan>
+              <instruksi>3 Set x 45 Detik (targetkan peningkatan dari minggu lalu)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Side Plank (Tumpuan Lutut)</namaGerakan>
+              <instruksi>3 Set x 30 Detik (untuk setiap sisi)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(8).mp4</pathVideo>
+            <skalaNyeri>3</skalaNyeri>
+            <catatanPasien>Plank 45 detik beneran kerasa, Bu! Gemetarnya lebih parah dari minggu lalu, tapi berhasil selesai. Side plank juga susah, bagian samping perut rasanya kayak &apos;ketarik&apos; banget. Punggung aman, cuma pegal-pegal aja.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Luar biasa, Baskara! Berhasil menyelesaikan Plank 45 detik adalah pencapaian besar. Gemetar saat otot mencapai batasnya itu sangat normal, artinya otot intimu benar-benar bekerja keras. Kamu berhasil merasakan otot perut samping saat side plank juga pertanda bagus. Terus pertahankan!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 3 (Gerakan Fungsional Dinamis)</namaSesi>
+          <tanggalTugas>2025-07-03</tanggalTugas>
+          <status>Menunggu Laporan</status>
+          <catatanTerapis>Hari ini kita akan membuat gerakan fungsional menjadi lebih dinamis. Untuk walking lunges, fokus pada kestabilan saat melangkah dan jaga tubuh tetap tegap. Gerakan ini sangat bagus untuk melatih koordinasi dan kekuatan.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Bodyweight Squat to Stand</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Walking Lunges</namaGerakan>
+              <instruksi>3 Set x 10 Langkah (untuk setiap kaki)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 3 (Latihan Rotasi Terkontrol)</namaSesi>
+          <tanggalTugas>2025-07-05</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Sesi terakhir untuk minggu ini, kita akan melatih rotasi tulang belakang dengan aman. Untuk wood chops, bayangkan kamu sedang menarik sesuatu secara diagonal melintasi tubuhmu. Lakukan dengan pelan dan terkontrol, rasakan otot perut samping bekerja. Semangat!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Wood Chops (Tanpa Beban)</namaGerakan>
+              <instruksi>3 Set x 12 Repetisi (untuk setiap sisi)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Open Book Stretch</namaGerakan>
+              <instruksi>3 Set x 10 Repetisi (untuk setiap sisi)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(9).mp4</pathVideo>
+            <skalaNyeri>1</skalaNyeri>
+            <catatanPasien>Gerakan wood chops awalnya aneh, tapi setelah beberapa kali jadi ngerti, Bu. Otot perut samping jadi terasa hangat. Peregangan open book di akhir enak banget, punggung atas terasa &apos;terbuka&apos;.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Betul sekali, Baskara. Gerakan rotasi seperti wood chops memang terasa baru, dan kamu berhasil menemukan otot yang tepat. Itu progres yang sangat baik! Senang kamu menikmati peregangan di akhir. Kamu sudah menyelesaikan minggu ketiga dengan sangat solid. Saya sangat puas dengan kemajuanmu.</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 4 (Daya Tahan Fungsional)</namaSesi>
+          <tanggalTugas>2025-07-08</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Selamat datang di minggu terakhir program ini, Baskara! Saatnya kita uji daya tahan otot intimu. Saat melakukan plank, angkat satu kaki secara perlahan tanpa membuat pinggulmu jatuh. Kuncinya adalah stabilitas!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Plank with Alternating Leg Lifts</namaGerakan>
+              <instruksi>3 Set x 10 Repetisi (setiap kaki, pelan)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Glute Bridge Marching</namaGerakan>
+              <instruksi>3 Set x 20 Langkah (bergantian)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(10).mp4</pathVideo>
+            <skalaNyeri>1</skalaNyeri>
+            <catatanPasien>Jauh lebih stabil dari minggu lalu, Bu! Gerakan angkat kaki pas plank sudah tidak terlalu goyang. Otot perut rasanya &apos;terbakar&apos;, tapi punggung aman.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Laporan diterima, Baskara. Sangat senang membaca bahwa stabilitasmu meningkat! Rasa &apos;terbakar&apos; di otot perut saat melakukan gerakan ini adalah tujuan utamanya. Ini bukti bahwa otot inti-mu sekarang yang bekerja, bukan lagi punggungmu. Progres yang fantastis!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 4 (Simulasi Gerakan Mengangkat)</namaSesi>
+          <tanggalTugas>2025-07-10</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Hari ini kita akan melatih pola gerakan yang benar untuk membungkuk dan mengangkat, ini penting untuk mencegah cedera berulang. Jaga punggung tetap lurus saat melakukan good mornings. Lakukan dengan sangat perlahan.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Good Mornings (Tanpa Beban)</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Bodyweight Deadlift (Single Leg)</namaGerakan>
+              <instruksi>3 Set x 8 Repetisi (setiap sisi)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(11).mp4</pathVideo>
+            <skalaNyeri>0</skalaNyeri>
+            <catatanPasien>Gerakan Good Morning ini beneran &apos;membuka mata&apos; soal postur membungkuk yang benar. Sekarang jadi lebih sadar kalau mau ambil barang. Punggung nggak terasa ngilu sama sekali.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Ini yang saya harapkan! Saat kamu mulai sadar akan postur saat membungkuk di kehidupan sehari-hari, itu artinya tujuan rehabilitasi kita tercapai. Kesadaran tubuh atau body awareness inilah &apos;ilmu&apos; yang akan menjagamu dari cedera di masa depan. Excellent work!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 4 (Latihan Kardio Ringan)</namaSesi>
+          <tanggalTugas>2025-07-12</tanggalTugas>
+          <status>Menunggu Laporan</status>
+          <catatanTerapis>Kita perlu melatih jantung juga! Lakukan gerakan kardio ini dengan intensitas ringan hingga sedang. Jika jumping jacks terasa sakit, lakukan versi low impact (tanpa lompatan). Tujuannya adalah meningkatkan detak jantung tanpa membebani punggung.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Stationary Marching with High Knees</namaGerakan>
+              <instruksi>3 Set x 45 Detik</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Jumping Jacks (Modifikasi/Low Impact)</namaGerakan>
+              <instruksi>3 Set x 30 Detik</instruksi>
+            </gerakan>
+          </daftarGerakan>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 4 (Evaluasi Akhir &amp; Peregangan)</namaSesi>
+          <tanggalTugas>2025-07-14</tanggalTugas>
+          <status>Perlu Evaluasi</status>
+          <catatanTerapis>Sesi terakhir, Baskara! Kita ulangi beberapa gerakan dasar untuk mengevaluasi seberapa jauh progresmu. Setelah ini, tetap lakukan peregangan ini secara rutin ya. Kamu sudah bekerja sangat keras dan hasilnya luar biasa. Selamat!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Full Bodyweight Squat</namaGerakan>
+              <instruksi>2 Set x 15 Repetisi (evaluasi form)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Knee-to-Chest Stretch</namaGerakan>
+              <instruksi>2 Set x 30 Detik (setiap sisi)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Cat-Cow Stretch</namaGerakan>
+              <instruksi>2 Set x 15 Repetisi</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-F38EC7BD\VIDEOEXAMPLE(12).mp4</pathVideo>
+            <skalaNyeri>0</skalaNyeri>
+            <catatanPasien>Rasanya beda banget melakukan squat sekarang dibanding bulan lalu. Jauh lebih kuat dan percaya diri. Terima kasih banyak untuk semua panduannya selama sebulan ini, Bu. Saya jadi jauh lebih mengerti tubuh saya.</catatanPasien>
+          </laporanPasien>
+        </sesiLatihan>
+      </daftarSesiLatihan>
+    </pasien>
+    <pasien>
+      <id>PULIH-EDD5722E</id>
+      <namaLengkap>Anindita Putri</namaLengkap>
+      <passwordHash>0b228df0f887970494cb425de577cf8e9c9e3ac9</passwordHash>
+      <email>anindita.p@email.com</email>
+      <noTelepon>087811223344</noTelepon>
+      <tanggalLahir>2001-07-22</tanggalLahir>
+      <jenisKelamin>Perempuan</jenisKelamin>
+      <diagnosisUtama>Ankle Sprain</diagnosisUtama>
+      <tanggalPembuatanAkun>2025-07-13</tanggalPembuatanAkun>
+      <daftarSesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Fase Istirahat &amp; Gerakan Awal)</namaSesi>
+          <tanggalTugas>2025-07-15</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Halo Anindita, selamat datang di program pemulihan &apos;Pulih&apos;. Di beberapa hari pertama ini, fokus utama kita adalah istirahat. Lakukan gerakan ini dengan sangat perlahan dan hanya sampai batas nyaman, jangan dipaksa jika sakit. Jangan lupa kompres es di area yang bengkak ya!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Ankle Pumps</namaGerakan>
+              <instruksi>3 Set x 20 Repetisi (gerakkan telapak kaki ke atas dan ke bawah)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Ankle Circles</namaGerakan>
+              <instruksi>3 Set x 15 Putaran (ke arah dalam dan luar)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-EDD5722E\VIDEOEXAMPLE.mp4</pathVideo>
+            <skalaNyeri>2</skalaNyeri>
+            <catatanPasien>Gerakannya pelan-pelan sudah bisa, Bu. Tapi masih terasa ngilu di bagian luar pergelangan kaki kalau diputar terlalu jauh. Bengkaknya juga masih ada.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Terima kasih laporannya, Anindita. Rasa ngilu di bagian luar pergelangan kaki itu sangat normal di fase ini, itu adalah area ligamen yang sedang dalam pemulihan. Kamu sudah melakukan hal yang benar dengan tidak memaksakan gerakan. Terus lanjutkan kompres esnya ya. Awal yang baik!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Pengenalan Gerakan Alfabet)</namaSesi>
+          <tanggalTugas>2025-07-17</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Oke, kita lanjutkan latihannya. Gerakan &apos;menulis alfabet&apos; ini sangat bagus untuk melatih pergelangan kakimu bergerak ke segala arah secara lembut. Tetap dengarkan tubuhmu, jika ada gerakan yang terasa nyeri, lewati saja huruf itu.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Ankle Pumps</namaGerakan>
+              <instruksi>3 Set x 20 Repetisi</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Alphabet Drawing</namaGerakan>
+              <instruksi>2 Set (tulis semua huruf A-Z di udara menggunakan ibu jari kaki)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-EDD5722E\VIDEOEXAMPLE(2).mp4</pathVideo>
+            <skalaNyeri>1</skalaNyeri>
+            <catatanPasien>Menulis alfabet lumayan membantu, Bu. Ada beberapa huruf (seperti R dan Z) yang bikin ngilu, jadi saya coba lebih pelan. Gerakannya jadi lebih luwes sedikit dibanding kemarin.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>&quot;Bagus sekali! Gerakan &apos;menulis alfabet&apos; memang bertujuan untuk &apos;mengingatkan&apos; pergelangan kakimu cara bergerak ke segala arah. Sangat wajar jika ada beberapa &apos;huruf&apos; yang terasa lebih menantang. Kamu sudah mendengarkan tubuhmu dengan baik. Terus lanjutkan.</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Aktivasi Otot Ringan)</namaSesi>
+          <tanggalTugas>2025-07-19</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Latihan terakhir untuk minggu ini! Kita akan mulai &apos;membangunkan&apos; otot-otot di sekitar pergelangan kaki tanpa menggerakkan sendinya. Kamu hanya perlu menahan tekanan, tidak perlu mendorong terlalu keras. Good job for this week!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Alphabet Drawing</namaGerakan>
+              <instruksi>2 Set</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Isometric Towel Push (Plantarflexion)</namaGerakan>
+              <instruksi>3 Set x Tahan 10 Detik (duduk, dorong telapak kaki ke bawah melawan handuk)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Isometric Towel Pull (Dorsiflexion)</namaGerakan>
+              <instruksi>3 Set x Tahan 10 Detik (duduk, tarik telapak kaki ke atas melawan handuk)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-EDD5722E\VIDEOEXAMPLE(3).mp4</pathVideo>
+            <skalaNyeri>2</skalaNyeri>
+            <catatanPasien>Gerakan menahan pakai handuk ini tidak sakit sama sekali, Bu. Cuma terasa ada otot yang &apos;bangun&apos; di sekitar pergelangan kaki. Rasanya aneh tapi tidak nyeri. Bengkaknya sudah sedikit berkurang.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Ini progres yang sangat positif, Anindita! Saat kamu bisa merasakan otot &apos;bangun&apos; tanpa rasa nyeri, itu artinya kita sudah siap untuk masuk ke tahap selanjutnya. Berkurangnya bengkak juga pertanda bagus. Kamu sudah menyelesaikan minggu pertama dengan sangat baik. Saya akan siapkan program untuk minggu kedua!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Pengenalan Beban Tubuh)</namaSesi>
+          <tanggalTugas>2025-07-22</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Selamat datang di minggu kedua, Anindita! Saatnya kita mulai memberikan sedikit beban pada pergelangan kakimu. Lakukan gerakan ini sambil berpegangan pada dinding atau kursi untuk menjaga keseimbangan. Fokus pada gerakan yang pelan dan terkontrol.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Toe Raises</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (berdiri, angkat tumit perlahan/berjinjit)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Heel Raises</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (berdiri, angkat ujung kaki ke atas)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-EDD5722E\VIDEOEXAMPLE(4).mp4</pathVideo>
+            <skalaNyeri>2</skalaNyeri>
+            <catatanPasien>Berjinjit terasa sedikit ngilu tapi masih bisa ditahan, Bu. Saya lakukan dekat dinding seperti instruksi. Pergelangan kaki terasa cepat lelah setelah beberapa repetisi.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Terima kasih laporannya, Anindita. Rasa ngilu ringan dan lelah saat pertama kali menahan beban itu sangat wajar. Itu tandanya otot-otot di sekitar pergelangan kakimu mulai aktif kembali setelah istirahat. Kamu sudah melakukannya dengan baik. Terus lanjutkan!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Latihan Penguatan Eversi &amp; Inversi)</namaSesi>
+          <tanggalTugas>2025-07-22</tanggalTugas>
+          <status>Menunggu Laporan</status>
+          <catatanTerapis>Hari ini kita akan memperkuat otot-otot di sisi pergelangan kakimu menggunakan resistance band (karet latihan). Ini penting untuk mencegah cedera berulang. Pastikan hanya pergelangan kakimu yang bergerak, bukan seluruh tungkai.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Resistance Band Eversion</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (gerakkan telapak kaki ke arah luar melawan tahanan karet)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Resistance Band Inversion</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (gerakkan telapak kaki ke arah dalam melawan tahanan karet)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Latihan Keseimbangan Awal)</namaSesi>
+          <tanggalTugas>2025-07-26</tanggalTugas>
+          <status>Perlu Evaluasi</status>
+          <catatanTerapis>Sekarang kita akan mulai melatih kembali &apos;sensor&apos; keseimbangan di pergelangan kakimu. Lakukan latihan ini di dekat dinding agar bisa berpegangan jika kehilangan keseimbangan. Tidak apa-apa jika awalnya terasa sangat goyang.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Single Leg Stand (Mata Terbuka)</namaGerakan>
+              <instruksi>3 Set x Tahan 30 Detik (berdiri dengan satu kaki)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Tandem Stance</namaGerakan>
+              <instruksi>3 Set x Tahan 30 Detik (berdiri dengan satu kaki di depan kaki lainnya, seperti berjalan di atas tali)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-EDD5722E\VIDEOEXAMPLE(6).mp4</pathVideo>
+            <skalaNyeri>1</skalaNyeri>
+            <catatanPasien>Susah banget ternyata berdiri dengan satu kaki, Bu! Goyang terus, hehe. Tapi tidak terasa nyeri, lebih ke tantangan keseimbangan saja. Saya coba tahan semampunya.</catatanPasien>
+          </laporanPasien>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 2 (Peregangan &amp; Mobilitas)</namaSesi>
+          <tanggalTugas>2025-07-28</tanggalTugas>
+          <status>Sudah Dievaluasi</status>
+          <catatanTerapis>Kita tutup minggu ini dengan peregangan untuk menjaga fleksibilitas otot betis, yang sangat penting untuk pergelangan kaki yang sehat. Kamu sudah bekerja keras minggu ini, Anindita. Pertahankan!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Calf Stretch (Gastrocnemius)</namaGerakan>
+              <instruksi>3 Set x Tahan 30 Detik (kaki lurus di belakang)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Calf Stretch (Soleus)</namaGerakan>
+              <instruksi>3 Set x Tahan 30 Detik (kaki sedikit ditekuk di belakang)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+          <laporanPasien>
+            <pathVideo>videos\PULIH-EDD5722E\VIDEOEXAMPLE(5).mp4</pathVideo>
+            <skalaNyeri>0</skalaNyeri>
+            <catatanPasien>Peregangan otot betisnya terasa sangat enak, Bu. Area belakang pergelangan kaki jadi terasa lebih ringan dan tidak sekaku sebelumnya. Latihan minggu ini terasa ada kemajuan.</catatanPasien>
+          </laporanPasien>
+          <evaluasiTerapis>
+            <umpanBalik>Senang mendengar peregangannya terasa nyaman. Menjaga otot betis tetap fleksibel akan sangat membantu pergerakan pergelangan kakimu ke depan. Kamu sudah menyelesaikan minggu kedua dengan kemajuan yang sangat solid. Bersiap untuk tantangan di minggu ketiga ya!</umpanBalik>
+            <statusAkhir>Gerakan Benar &amp; Selesai</statusAkhir>
+          </evaluasiTerapis>
+        </sesiLatihan>
+      </daftarSesiLatihan>
+    </pasien>
+    <pasien>
+      <id>PULIH-D413B8F4</id>
+      <namaLengkap>Rian Setiawan</namaLengkap>
+      <passwordHash>9495cac29d5b57ce1894fb79af500db46f0e1faf</passwordHash>
+      <email>rian.setiawan@email.com</email>
+      <noTelepon>085655667788</noTelepon>
+      <tanggalLahir>1995-11-10</tanggalLahir>
+      <jenisKelamin>Laki-Laki</jenisKelamin>
+      <diagnosisUtama>Cedera Hamstring Ringan</diagnosisUtama>
+      <tanggalPembuatanAkun>2025-07-14</tanggalPembuatanAkun>
+      <daftarSesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Peregangan Isometrik Awal)</namaSesi>
+          <tanggalTugas>2025-07-15</tanggalTugas>
+          <status>Menunggu Laporan</status>
+          <catatanTerapis>Halo Rian, selamat datang di program &apos;Pulih&apos;. Karena cederamu masih baru, kita mulai dengan sangat perlahan ya. Latihan ini tujuannya hanya untuk &apos;mengingatkan&apos; ototmu cara berkontraksi tanpa harus memendek atau memanjang. Sama sekali tidak boleh ada rasa sakit tajam. Semangat!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Isometric Hamstring Contraction</namaGerakan>
+              <instruksi>3 Set x Tahan 10 Detik (duduk, tekan tumit perlahan ke lantai tanpa menggerakkan kaki)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Glute Squeezes</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (berbaring, kencangkan otot bokong)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Pengenalan Gerakan Terkontrol)</namaSesi>
+          <tanggalTugas>2025-07-17</tanggalTugas>
+          <status>Menunggu Laporan</status>
+          <catatanTerapis>Oke, hari ini kita coba sedikit gerakan. Lakukan heel slides dengan sangat lambat dan terkontrol. Untuk angkat kaki, tidak perlu tinggi-tinggi, yang penting kamu bisa merasakan otot paha depan bekerja tanpa hamstring terasa &apos;tertarik&apos; berlebihan.</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Heel Slides</namaGerakan>
+              <instruksi>3 Set x 15 Repetisi (berbaring, tekuk lutut dengan menggeser tumit di lantai)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Straight Leg Raise (Modifikasi)</namaGerakan>
+              <instruksi>3 Set x 10 Repetisi (angkat kaki lurus hanya beberapa sentimeter dari lantai)</instruksi>
+            </gerakan>
+          </daftarGerakan>
+        </sesiLatihan>
+        <sesiLatihan>
+          <namaSesi>Minggu 1 (Peregangan Pasif &amp; Mobilitas)</namaSesi>
+          <tanggalTugas>2025-07-22</tanggalTugas>
+          <status>Menunggu Laporan</status>
+          <catatanTerapis>Kita tutup minggu ini dengan peregangan pasif yang sangat lembut. Kuncinya adalah tarikan ringan, bukan rasa sakit. Tujuannya hanya untuk menjaga fleksibilitas. Kamu sudah melewati minggu pertama dengan baik, Rian!</catatanTerapis>
+          <daftarGerakan>
+            <gerakan>
+              <namaGerakan>Gentle Hamstring Stretch (dengan Handuk)</namaGerakan>
+              <instruksi>3 Set x Tahan 20 Detik (berbaring, tarik kaki lurus ke atas dengan bantuan handuk, hanya sampai terasa tarikan ringan)</instruksi>
+            </gerakan>
+            <gerakan>
+              <namaGerakan>Ankle Pumps</namaGerakan>
+              <instruksi>3 Set x 20 Repetisi</instruksi>
+            </gerakan>
+          </daftarGerakan>
+        </sesiLatihan>
+      </daftarSesiLatihan>
+    </pasien>
+    <pasien>
+      <id>PULIH-3300B25F</id>
+      <namaLengkap>Karina Santoso</namaLengkap>
+      <passwordHash>b47383bd430c25698bc9ebe09421fa0b72c4e949</passwordHash>
+      <email>karina.s@email.com</email>
+      <noTelepon>081399887766</noTelepon>
+      <tanggalLahir>2003-04-05</tanggalLahir>
+      <jenisKelamin>Perempuan</jenisKelamin>
+      <diagnosisUtama>Cervical Pain Syndrome</diagnosisUtama>
+      <tanggalPembuatanAkun>2025-07-19</tanggalPembuatanAkun>
+      <daftarSesiLatihan/>
+    </pasien>
+  </listPasien>
+</pulih-data>
