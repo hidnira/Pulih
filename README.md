@@ -104,8 +104,6 @@ This project was developed as a major assignment for a university course.
 
 Also thank you to everyone who provided support.
 
----
-
 ## License 📄
 
 Copyright © 2025 Pemula Produktif. All rights reserved.
