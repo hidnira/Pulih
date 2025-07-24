@@ -1,14 +1,10 @@
 # Pulih: Digital Physical Rehabilitation App 🔄
 
----
-
 [](https://www.java.com)
 [](https://openjfx.io/)
 [](https://maven.apache.org/)
 
 **Pulih** is a desktop application based on Java and JavaFX, designed to bridge communication between physiotherapists and patients in a remote physical rehabilitation program. The application facilitates an asynchronous workflow where a therapist can assign exercise programs, and a patient can report their progress by uploading videos for evaluation.
-
----
 
 ## Key Features 🤖
 - **Dual User Roles**: Separate login systems for **Physiotherapists** and **Patients** with distinct access rights.
@@ -20,16 +16,12 @@
 - **Data Visualization**: A line chart to monitor the patient's exercise adherence progress over time.
 - **Local Data Storage**: All application data is stored portably in a single `database.xml` file.
 
----
-
 ## Technologies Used 💻
 - **Java 11**: The primary programming language.
 - **JavaFX**: The framework used for building the graphical user interface (GUI).
 - **Maven**: A build automation tool for project and dependency management.
 - **XStream**: A library for serializing/deserializing Java objects to XML.
 - **Scene Builder**: A visual layout tool for designing FXML interfaces.
-
----
 
 ## Getting Started 📖
 
@@ -49,8 +41,6 @@ Ensure you have the following installed on your system:
     ```bash
     mvn javafx:run
     ```
-
----
 
 ## Demo Accounts ▶️
 
@@ -76,8 +66,6 @@ To test the patient workflow, please log in as the therapist first and create ne
     * **Email**: `karina.s@email.com`
     * **Password**: `karina03`
 
----
-
 ## Project Structure 📂
 
 ```
@@ -102,8 +90,6 @@ Pulih/
 └── pom.xml                # Maven configuration file
 ```
 
----
-
 ## Acknowledgments 📌
 
 This project was developed as a major assignment for a university course. 
@@ -117,8 +103,6 @@ This project was developed as a major assignment for a university course.
 
 
 Also thank you to everyone who provided support.
-
----
 
 ## License 📄
 
