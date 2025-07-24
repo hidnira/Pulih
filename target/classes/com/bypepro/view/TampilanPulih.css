@@ -1,0 +1,203 @@
+.gradient-background {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #FFFFFF, #F8F9FA);
+}
+
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-background-color: #89B4FA;
+    -fx-background-radius: 24;
+}
+
+.button-back {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #2C3E50;
+}
+
+.button-role {
+    -fx-font-family: "Arial";
+    -fx-font-weight: 600;
+    -fx-text-fill: #2C3E50;
+    -fx-background-color: white;
+    -fx-border-color: #E2E2E2;
+    -fx-border-width: 1px;
+    -fx-background-radius: 24;
+    -fx-border-radius: 24;
+}
+
+.button-function {
+    -fx-font-family: "Arial";
+    -fx-font-weight: Bold;
+    -fx-text-fill:white;
+}
+
+.table-view {
+    -fx-font-family:"Arial";
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-font-size: 12px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2C3E50;
+    -fx-border-color: transparent;  
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: Bold;
+}
+
+.table-row-cell{
+    -fx-background-color: #f5f5f5;
+    -fx-alignment: center;
+    -fx-font-size: 12px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #B0D0FF;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-row-cell .text {
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-fill: #2C3E50;
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-row-cell:selected .text {
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-fill: white;
+    -fx-alignment: CENTER;
+}
+
+.date-picker {
+    -fx-background-color: #f5f5f5;
+    -fx-font-size: 12px;
+}
+
+.date-picker .text-field {
+    -fx-background-color: #f5f5f5;
+    -fx-font-family:"Arial";
+    -fx-font-size: 12px;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #f5f5f5;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: #2C3E50;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: #f5f5f5;
+    -fx-background-radius: 25;
+    -fx-font-size: 12px;
+}
+
+.choice-box .context-menu .menu-item {
+    -fx-font-family:"Arial";
+    -fx-background-color: #f5f5f5;
+    -fx-background-radius: 25;
+    -fx-border-color: transparent;
+    -fx-font-size: 12px;
+}
+
+.choice-box .context-menu .menu-item:hover {
+    -fx-background-color: #0096c9;
+    -fx-text-fill: white;
+}
+
+TextField {
+    -fx-text-fill: #2C3E50;
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 12px;
+    -fx-background-radius: 24;
+}
+
+.transparent-textfield {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.stackpane-textfield{
+    -fx-text-fill: #2C3E50;
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 12px;
+    -fx-background-radius: 24;
+}
+
+PasswordField {
+    -fx-text-fill: #2C3E50;
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 12px;
+    -fx-background-radius: 24;
+}
+
+Text {
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-text-fill: #2C3E50;
+}
+
+.text-type-1 {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill:#2C3E50;
+}
+
+.text-type-2 {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+}
+
+.text-headline-role {
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-font-style: italic;
+    -fx-text-fill: #2C3E50;
+}
+
+.text-headline-login {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50;
+}
+
+.text-header-1 {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill: #89B4FA;
+}
+
+.text-header-2 {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50;
+}
+
+Label {
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-text-fill: #2C3E50;
+}
+
+.login-image{
+    -fx-background-radius: 24;
+}

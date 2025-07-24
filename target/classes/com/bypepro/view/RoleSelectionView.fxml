@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="520.0" prefWidth="800.0" styleClass="gradient-background" stylesheets="@TampilanPulih.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bypepro.controller.RoleSelectionCR">
+   <children>
+      <VBox alignment="CENTER" layoutX="248.0" layoutY="157.0" spacing="20.0" AnchorPane.bottomAnchor="156.67691241563392" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="247.63075302214264" AnchorPane.topAnchor="157.0">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+          <children>
+              <Label styleClass="text-headline-role" text="Aku adalah seorang...">
+               <font>
+                  <Font name="Plus Jakarta Sans SemiBold Italic" size="24.0" />
+               </font>
+              </Label>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" spacing="18.0">
+               <children>
+                    <Button fx:id="pasienButton" contentDisplay="TOP" mnemonicParsing="false" onAction="#handlePasienButton" styleClass="button-role" text="Pasien" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Alexandria Black" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="16.0" left="24.0" right="24.0" top="16.0" />
+                     </padding>
+                     <graphic>
+                        <VBox>
+                           <children>
+                              <ImageView fitHeight="58.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/icon-heart.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </Button>
+                    <Button fx:id="terapisButton" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleTerapisButton" styleClass="button-role" text="Terapis" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="16.0" left="24.0" right="24.0" top="16.0" />
+                     </padding>
+                     <graphic>
+                        <VBox>
+                           <children>
+                              <ImageView fitHeight="58.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/icon-person.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="15.0" right="15.0" />
+               </padding>
+            </HBox>
+          </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="607.0" prefWidth="800.0" styleClass="gradient-background" stylesheets="@TampilanPulih.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bypepro.controller.EvaluasiLatihanCR">
+   <children>
+      <Button fx:id="kembaliButton" layoutX="744.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleKembali" style="-fx-text-fill: white; -fx-background-radius: 25; -fx-background-color: #2c3e50;" text="&lt;">
+         <font>
+            <Font name="SFUIText-Regular" size="12.0" />
+         </font>
+      </Button>
+      <VBox layoutX="50.0" layoutY="19.0">
+         <children>
+            <Text fill="#89b4fa" strokeType="OUTSIDE" strokeWidth="0.0" text="Fisioterapis">
+               <font>
+                  <Font name="SFUIText-Regular" size="28.0" />
+               </font>
+            </Text>
+            <Text fill="#384553" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+               <font>
+                  <Font name="SFUIText-Regular" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="50.0" layoutY="104.0">
+         <children>
+            <HBox>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evaluasi Latihan:">
+                     <font>
+                        <Font name="SFUIText-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="namaSesiLabel" styleClass="text-type-1" text="Minggu 4: Evaluasi Akhir &amp; Peregangan">
+                     <font>
+                        <Font name="SFUIText-Regular" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="7.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pasien           :">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="namaPasienLabel" styleClass="text-type-1" text="Baskara Aji Nugroho">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tugas pada   :">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="tanggalTugasLabel" styleClass="text-type-1" text="22 Juni 2025">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="50.0" layoutY="192.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Daftar Gerakan">
+               <font>
+                  <Font name="SFUIText-Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <VBox fx:id="daftarGerakanVBox" prefWidth="420.0" spacing="3.0">
+               <children>
+                  <Text layoutX="10.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Plank with Alternating Leg Lifts: 3 Set x 10 Repetisi (setiap kaki, pelan)" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="• Full Bodyweight Squat: 2 Set x 15 Repetisi (evaluasi form)" />
+                  <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Knee-to-Chest Stretch: 2 Set x 30 Detik (setiap sisi)" />
+                  <Text layoutX="10.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Cat-Cow Stretch: 2 Set x 15 Repetisi" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <VBox layoutX="50.0" layoutY="316.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Laporan dari Pasien">
+               <font>
+                  <Font name="SFUIText-Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="bukaVideoButton" mnemonicParsing="false" onAction="#handleBukaVideo" prefHeight="21.0" prefWidth="370.0" style="-fx-background-color: #384553;" text="Buka Video">
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin></Button>
+            <Label fx:id="videoPathLabel" text="VIDEOEXAMPLE.mp4">
+               <font>
+                  <Font name="SFUIText-Regular" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="50.0" layoutY="429.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Catatan dari Pasien">
+               <font>
+                  <Font name="SFUIText-Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <HBox>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tingkat Nyeri:">
+                     <HBox.margin>
+                        <Insets bottom="13.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Label fx:id="skalaNyeriLabel" styleClass="text-type-1" text="3 dari 5">
+                     <font>
+                        <Font name="SFUIText-Regular" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="290.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <Label fx:id="catatanPasienLabel" prefWidth="412.0" text="“Gerakan Plank terasa paling berat, Bu Dian. Punggung bagian bawah agak gemetar saat menahan. Apakah itu normal?”" wrapText="true">
+               <font>
+                  <Font name="SFUIText-Regular" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="485.0" layoutY="192.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evaluasi">
+               <font>
+                  <Font name="SFUIText-Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <TextArea fx:id="umpanBalikArea" prefHeight="176.0" prefWidth="281.0" promptText="*Tuliskan umpan balik, koreksi gerakan, atau pesan penyemangat untuk pasien di sini..." wrapText="true">
+               <font>
+                  <Font name="SFUIText-Regular" size="12.0" />
+               </font>
+            </TextArea>
+         </children>
+      </VBox>
+      <VBox layoutX="485.0" layoutY="429.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tandai Status Latihan">
+               <font>
+                  <Font name="SFUIText-Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </Text>
+            <ComboBox fx:id="statusComboBox" prefHeight="25.0" prefWidth="281.0" promptText="Pilih Status" style="-fx-background-radius: 25;">
+               <VBox.margin>
+                  <Insets bottom="13.0" />
+               </VBox.margin>
+            </ComboBox>
+            <Button fx:id="simpanButton" mnemonicParsing="false" onAction="#handleSimpan" prefHeight="23.0" prefWidth="281.0" style="-fx-background-radius: 25; -fx-background-color: #384553; -fx-text-fill: white;" text="Simpan &amp; Kirim Evaluasi">
+               <font>
+                  <Font name="SFUIText-Regular" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
